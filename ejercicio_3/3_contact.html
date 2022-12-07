@@ -6,12 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 3 - Contacto</title>
-    <!-- CSS: vincular el archivo 3_style.css -->
+    <LINK:css href="3_style.css"> </LINK:css>
 
 </head>
 
 <body>
-
+    <h1>Contacto</h1>
+    <h2>¿Quieres participar en nuestro experimentos?</h2>
+    <form>
+        <label for="Nombre"> Nombre</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"> <br>
+        <label for="email">Email</label> <br>
+        <input type="email" id="email" placeholder="email"><br>
+        <label for="tlf">Teléfono</label><br>
+        <input type="tlf" name="tlf" id="tlf"><br>
+        <label for="Nacimiento">Fecha de Nacimiento</label><br>
+        <input type="date" id="Nacimiento" name="Nacimiento"><br>    
+       
+        
+        <br>
+        Genero:<br>
+        <input type="radio" id="radio_consulta" name="juegos">
+        <label for="radio_consulta">Masculino</label><br>
+        <input type="radio" id="radio_correccion" name="juegos">
+        <label for="radio_correccion">Femenino</label><br>
+        <input type="radio" id="radio_correccion" name="juegos">
+        <label for="radio_sugerencia">Otro</label><br>
+    </form>
 </body>
 
 </html>
